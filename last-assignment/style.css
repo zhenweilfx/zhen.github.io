@@ -1,0 +1,81 @@
+* {
+  text-align: center;
+}
+body {
+  width: 100%;
+  background-color: antiquewhite;
+}
+
+.info {
+  margin: auto;
+}
+
+header {
+  height: 900px;
+  background-image: url(https://www.wallpapertip.com/wmimgs/99-996477_brain-psychology-mind-ss-cognitive-psychology.jpg);
+
+}
+
+header h1 {
+  padding-top: 500px;
+  font-size: 90px;
+  font-weight: bold;
+  color: rgb(253, 253, 253);
+}
+
+
+
+section {
+  width: 60%;
+  margin: auto;
+}
+
+.hidden_box {
+  margin: 2em 0;
+  padding: 0;
+}
+
+.hidden_box label {
+  padding: 15px;
+  font-weight: bold;
+  border: solid 2px black;
+  cursor :pointer;
+}
+
+
+.hidden_box label:hover {
+  background: #efefef;
+}
+
+
+.hidden_box input {
+  display: none;
+}
+
+
+.hidden_box .hidden_show {
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+
+
+.hidden_box input:checked ~ .hidden_show {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+
+footer {
+  width: 30%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+
+footer img {
+  width: 40%;
+  float: left;
+}
